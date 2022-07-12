@@ -17,7 +17,7 @@ import csv
 import random
 
 # Change these directories to your own locations
-input_folder = './PSKUS_dataset'
+input_folder = '/home/supreme/datasets-nas/washhands_public_datasets/Real-world-hospital-data sets'
 output_folder = './PSKUS_dataset_preprocessed/frames/'
 video_output_folder = './PSKUS_dataset_preprocessed/videos/'
 
@@ -284,7 +284,7 @@ def main():
 
     testfiles = set()
     trainvalfiles = set()
-    with open(os.path.join(input_folder, 'statistics-with-locations.csv')) as csv_file:
+    with open(os.path.join('./statistics-with-locations.csv')) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
 
         for row in csv_reader:

@@ -10,7 +10,7 @@ import cv2
 
 TEST_PROPORTION = 0.3
 
-input_dir         = './kaggle-dataset-6classes'
+input_dir         = '/home/supreme/datasets-nas/washhands_public_datasets/kaggle-dataset-6classes'
 output_videos_dir = './kaggle-dataset-6classes-preprocessed/videos'
 output_frames_dir = './kaggle-dataset-6classes-preprocessed/frames'
 

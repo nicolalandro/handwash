@@ -16,7 +16,7 @@ import json
 import random
 
 # Change these directories to your own locations
-input_folder = './RSU_METC_dataset'
+input_folder = '/home/supreme/datasets-nas/washhands_public_datasets/METC-dataset'
 output_folder = './RSU_METC_dataset_preprocessed/frames/'
 video_output_folder = './RSU_METC_dataset_preprocessed/videos/'
 
